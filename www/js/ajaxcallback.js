@@ -2,7 +2,8 @@ $(document).ready(function(){
     hostname = window.location.hostname;
     path = window.location.pathname;
     protocol = window.location.protocol;
-    url = protocol + "//" + hostname + path + "api.php";
+    port = window.location.port;
+    url = protocol + "//" + hostname + ":" + port + path + "api.php";
     setInterval(function(){
         $.ajax({
           url: url,
