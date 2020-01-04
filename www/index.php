@@ -4,7 +4,6 @@
     <body>
         <!-- Fixed navbar -->
         <div class="container">
-            <!--?php require_once('php/navbar.php'); ?-->
             <div class="page-header text-center">
                 <img class="img-circle img-fluid float-left" width="150px" height="150px" src="images/sunburn300.png" alt="Solar Power"></img>
                 <h3>Enphase Envoy Gateway - Real-time Solar production</h3>
