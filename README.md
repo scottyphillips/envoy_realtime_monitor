@@ -8,7 +8,7 @@
 
 
 This is a simple Docker container to allow you to monitor your Enphase Envoy
-solar gateway in Real time.
+solar gateway in realtime via your favourite web browser. 
 
 ## Instructions:
 1. Clone this repo.
@@ -27,7 +27,7 @@ docker run -d --add-host envoy.local:192.168.1.3  -p 8080:80 envoy_realtime_moni
 ## TODO:
 
 it would be nice if mDNS worked inside the Docker container so it could resolve
-the Envoy address automagically. 
+the Envoy address automagically.
 
 ## License
 
