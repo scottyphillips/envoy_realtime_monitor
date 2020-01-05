@@ -28,7 +28,7 @@ You will need to provide the Envoy Gateway IP address in place of 192.168.1.3
 docker run -d --add-host envoy.local:192.168.1.3  -p 8080:80 envoy_realtime_monitor
 ```
 
-4. Browse over to your Docker host (e.g http://192.168.1.60)
+4. Browse over to your Docker host (e.g http://192.168.1.60:8080)
 
 ![envoymonitor][envoyimg]
 
