@@ -41,7 +41,7 @@ If you are exporting power to the grid you Net consumption will be GREEN.
 
 it would be nice if mDNS worked inside the Docker container so it could resolve
 the Envoy address automagically.
-If someone could provide some guidance that would be appreciated!
+If someone could provide some guidance that would be appreciated!you do it
 
 ## License
 
